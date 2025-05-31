@@ -9,6 +9,7 @@ members = [
 name = "zen404"
 version = "0.1.0"
 edition = "2021"
+license = "ISC" # Specify the license
 
 [lib]
 name = "zen404"

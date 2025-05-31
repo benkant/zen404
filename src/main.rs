@@ -50,7 +50,8 @@ fn main() {
 
                 if let Some(segs) = &first_event.segs {
                     println!("  Segments ({}):", segs.len());
-                    for (i, seg) in segs.iter().take(3).enumerate() { // Print first 3 segments
+                    for (i, seg) in segs.iter().take(3).enumerate() {
+                        // Print first 3 segments
                         print!("    Seg {}: '{}'", i + 1, seg.utf8);
                         if let Some(conf) = seg.ac_asr_conf {
                             print!(" (Confidence: {})", conf);
