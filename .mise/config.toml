@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: ISC
+# Copyright (c) 2025 Ben Giles and contributors
+# This file is licensed under the terms of the ISC license.
+# See LICENSE in the project root for details.
+
+[tools]
+"rust" = { version = "stable", profile = "default" }
+"python" = "3.10"
+"pre-commit" = "latest"
+"ruff" = "latest"

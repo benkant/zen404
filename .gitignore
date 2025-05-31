@@ -1,0 +1,8 @@
+Cargo.lock
+/target
+/build
+/_deps
+
+/tests/data/*
+!/tests/data/.gitkeep
+!/tests/data/*.sample.json3

@@ -1,0 +1,53 @@
+---
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Rust Toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Cache Cargo Registry
+        uses: actions/cache@v2
+        with:
+          path: ~/.cargo/registry
+          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Cache Cargo Index
+        uses: actions/cache@v2
+        with:
+          path: ~/.cargo/index
+          key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Cargo Check
+        run: cargo check
+
+      - name: Cargo Test
+        run: cargo test --verbose
+
+      - name: Cargo Clippy
+        run: cargo clippy -- -D warnings
+
+      - name: Cargo Doc
+        run: cargo doc --no-deps
+
+      - name: Xtask Checks
+        run: |
+          cargo run -p xtask -- check
+          cargo run -p xtask -- clippy
+          cargo run -p xtask -- doc
+        shell: bash

@@ -3,8 +3,8 @@
 // Permission to use, copy, modify, and/or distribute this file for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 // See the LICENSE file in the project root for full license text.
 
-use zen404::{parse_transcript_from_file, parse_transcript_from_str, ParseError};
 use std::path::PathBuf;
+use zen404::{parse_transcript_from_file, parse_transcript_from_str, ParseError};
 
 // Helper function to get the full path to a test data file
 fn get_test_data_path(file_name: &str) -> PathBuf {
@@ -19,7 +19,12 @@ fn parses_sample_yt_transcript_successfully() {
     let path = get_test_data_path("yt_transcript.sample.json3");
     let parsed_result = parse_transcript_from_file(&path);
 
-    assert!(parsed_result.is_ok(), "Failed to parse sample transcript {:?}: {:?}", path, parsed_result.err());
+    assert!(
+        parsed_result.is_ok(),
+        "Failed to parse sample transcript {:?}: {:?}",
+        path,
+        parsed_result.err()
+    );
 
     let transcript = parsed_result.unwrap();
 
@@ -46,7 +51,10 @@ fn parses_sample_yt_transcript_successfully() {
         if let Some(segs) = &first_event.segs {
             assert!(!segs.is_empty(), "First event segs array, if present, should not be empty");
             if let Some(first_seg) = segs.first() {
-                assert!(!first_seg.utf8.is_empty(), "First segment's utf8 text should not be empty");
+                assert!(
+                    !first_seg.utf8.is_empty(),
+                    "First segment's utf8 text should not be empty"
+                );
                 // Optionally check for ac_asr_conf or t_offset_ms if their presence is guaranteed or important
             }
         } else {
@@ -58,7 +66,9 @@ fn parses_sample_yt_transcript_successfully() {
             // For now, we'll assume events typically have segments.
             // If yt_transcript.sample.json3 has events without segs, this part will need an update.
             // Consider if events without 'segs' are valid or if 'segs' should always be Some([]).
-             println!("Warning: First event has no segments. This might be valid depending on the data.");
+            println!(
+                "Warning: First event has no segments. This might be valid depending on the data."
+            );
         }
     }
 
@@ -66,9 +76,8 @@ fn parses_sample_yt_transcript_successfully() {
     // This assertion was from the original test, let's refine it based on Transcript structure.
     // Given `t_start_ms` and `d_duration_ms` are not optional in `Event`, they will always be present.
     // The main content is usually in `segs`.
-    let found_event_with_content = transcript.events.iter().any(|event| {
-        event.segs.as_ref().is_some_and(|s| !s.is_empty())
-    });
+    let found_event_with_content =
+        transcript.events.iter().any(|event| event.segs.as_ref().is_some_and(|s| !s.is_empty()));
     assert!(found_event_with_content, "At least one event must have non-empty segs.");
 
     // Add more specific assertions based on known content of yt_transcript.sample.json3
@@ -83,7 +92,9 @@ fn parse_empty_json_input_string() {
     if let Err(e) = result {
         println!("Correctly failed to parse empty string: {}", e);
         match e {
-            ParseError::Json(json_err) => assert!(json_err.is_eof(), "Error for empty string should be EOF"),
+            ParseError::Json(json_err) => {
+                assert!(json_err.is_eof(), "Error for empty string should be EOF")
+            }
             _ => panic!("Unexpected error type for empty string parsing"),
         }
     }
@@ -94,10 +105,13 @@ fn parse_malformed_json_string() {
     let malformed_json = r#"{"wireMagic": "pb3", "events": [ { "tStartMs": 0, "dDurationMs": 100, "segs": [{"utf8": "test"}]  }"#; // Missing closing bracket and brace
     let result = parse_transcript_from_str(malformed_json);
     assert!(result.is_err(), "Parsing malformed JSON should result in an error.");
-     if let Err(e) = result {
+    if let Err(e) = result {
         println!("Correctly failed to parse malformed JSON: {}", e);
-         match e {
-            ParseError::Json(json_err) => assert!(json_err.is_eof() || json_err.is_syntax(), "Error for malformed JSON should be EOF or Syntax"),
+        match e {
+            ParseError::Json(json_err) => assert!(
+                json_err.is_eof() || json_err.is_syntax(),
+                "Error for malformed JSON should be EOF or Syntax"
+            ),
             _ => panic!("Unexpected error type for malformed JSON parsing"),
         }
     }
@@ -136,7 +150,9 @@ fn parse_json_with_missing_required_field_wire_magic() {
     if let Err(e) = result {
         println!("Correctly failed to parse JSON with missing wireMagic: {}", e);
         match e {
-            ParseError::Json(json_err) => assert!(json_err.is_data(), "Error for missing field should be a data error"),
+            ParseError::Json(json_err) => {
+                assert!(json_err.is_data(), "Error for missing field should be a data error")
+            }
             _ => panic!("Unexpected error type for missing field parsing"),
         }
     }
@@ -153,10 +169,12 @@ fn parse_json_with_incorrect_type_for_field() {
     }"#;
     let result = parse_transcript_from_str(json_wrong_type);
     assert!(result.is_err(), "Parsing JSON with incorrect type for tStartMs should fail.");
-     if let Err(e) = result {
+    if let Err(e) = result {
         println!("Correctly failed to parse JSON with incorrect type: {}", e);
-         match e {
-            ParseError::Json(json_err) => assert!(json_err.is_data(), "Error for type mismatch should be a data error"),
+        match e {
+            ParseError::Json(json_err) => {
+                assert!(json_err.is_data(), "Error for type mismatch should be a data error")
+            }
             _ => panic!("Unexpected error type for type mismatch parsing"),
         }
     }

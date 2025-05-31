@@ -1,0 +1,32 @@
+# SPDX-License-Identifier: ISC
+# Copyright (c) 2025 Ben Giles and contributors
+# Permission to use, copy, modify, and/or distribute this file for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+# See the LICENSE file in the project root for full license text.
+
+[tasks.taplo-format]
+description = "Run taplo format on all TOML files"
+run = "taplo format --check=false ."
+
+[tasks.taplo-lint]
+description = "Run taplo lint on all TOML files"
+run = "taplo lint ."
+
+[tasks.pre-commit-run]
+description = "Run all pre-commit hooks on all files"
+run = "pre-commit run --all-files"
+
+[tasks.pre-commit-install]
+description = "Install pre-commit hooks into .git/hooks"
+run = "pre-commit install"
+
+[tasks.cargo-about]
+description = "Check license compliance with cargo-about"
+run = "cargo about check"
+
+["fix:legal:copyright"]
+description = "Run the check_license_headers --fix xtask"
+run = "cargo xtask check_license_headers --fix-it"
+
+[tasks.lint-legal-spdx]
+description = "Check that all files have SPDX-License-Identifier in the first 3 lines"
+run = ".mise/lint/legal/spdx"

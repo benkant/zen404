@@ -13,9 +13,9 @@
 mod quicktype_transcript;
 pub use quicktype_transcript::Transcript;
 
+use json_comments::StripComments;
 use std::fs;
 use std::io;
-use json_comments::StripComments;
 
 #[derive(Debug)]
 pub enum ParseError {
@@ -55,7 +55,9 @@ impl std::error::Error for ParseError {
 
 /// Parse a Transcript from a JSON3 file.
 /// Comments will be stripped before parsing.
-pub fn parse_transcript_from_file<P: AsRef<std::path::Path>>(path: P) -> Result<Transcript, ParseError> {
+pub fn parse_transcript_from_file<P: AsRef<std::path::Path>>(
+    path: P,
+) -> Result<Transcript, ParseError> {
     let file_content = fs::read_to_string(path)?;
     parse_transcript_from_str(&file_content)
 }
@@ -83,30 +85,47 @@ mod tests {
                 assert_eq!(transcript.wire_magic, "pb3", "wireMagic should be pb3");
 
                 assert!(!transcript.pens.is_empty(), "Pens array should not be empty");
-                assert_eq!(transcript.pens.len(), 1, "Expected 1 pen based on grep `\\\\\\\"pens\\\\\\\": [ {{ }} ]`");
-
+                assert_eq!(
+                    transcript.pens.len(),
+                    1,
+                    "Expected 1 pen based on grep `\\\\\\\"pens\\\\\\\": [ {{ }} ]`"
+                );
 
                 assert!(transcript.ws_win_styles.len() >= 2, "Expected at least 2 wsWinStyles");
 
-                assert!(transcript.wp_win_positions.len() >= 2, "Expected at least 2 wpWinPositions");
+                assert!(
+                    transcript.wp_win_positions.len() >= 2,
+                    "Expected at least 2 wpWinPositions"
+                );
 
-                assert!(!transcript.events.is_empty(), "Parsed transcript events should not be empty.");
+                assert!(
+                    !transcript.events.is_empty(),
+                    "Parsed transcript events should not be empty."
+                );
 
                 if let Some(first_event) = transcript.events.first() {
                     assert_eq!(first_event.t_start_ms, 0, "First event t_start_ms mismatch");
-                    assert_eq!(first_event.d_duration_ms, 70060, "First event d_duration_ms mismatch");
+                    assert_eq!(
+                        first_event.d_duration_ms, 70060,
+                        "First event d_duration_ms mismatch"
+                    );
                     assert_eq!(first_event.id, Some(1), "First event id mismatch");
 
                     if let Some(segs) = &first_event.segs {
                         if !segs.is_empty() {
                             if let Some(first_seg) = segs.first() {
-                                 assert!(!first_seg.utf8.is_empty(), "First segment's utf8 should not be empty if segs exist and are not empty.");
-                                 println!("First segment of first event: {}", first_seg.utf8);
+                                // The actual content "[Music]" was an assumption.
+                                // A more robust check here, without full file visibility,
+                                // is to ensure it's not empty if segments are present and non-empty.
+                                assert!(!first_seg.utf8.is_empty(), "First segment's utf8 should not be empty if segs exist and are not empty.");
+                                println!("First segment of first event: {}", first_seg.utf8);
                             }
                         } else {
+                            // segs is Some([]), which is valid.
                             println!("First event has an empty 'segs' array.");
                         }
                     } else {
+                        // segs is None, which might be valid for some event types.
                         println!("First event has no 'segs' field (segs is None).");
                     }
                 } else {
@@ -157,6 +176,7 @@ mod tests {
 
     #[test]
     fn handles_trailing_commas_in_objects_and_arrays_after_comment_stripping() {
+        // This JSON string must match the structure of `Transcript`
         // Using a more conservative version of trailing commas that serde_json handles well.
         let json_with_trailing_commas = r#"{
             "wireMagic": "pb3",
