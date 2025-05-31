@@ -10,4 +10,7 @@ name = "xtask"
 path = "src/main.rs"
 
 [dependencies]
+<<<<<<< HEAD
 serde_json = "1.0"
+=======
+>>>>>>> ecc0b6f (feat: Migrate build and dev tasks from mise to cargo xtask)
