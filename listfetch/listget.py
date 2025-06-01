@@ -18,7 +18,7 @@ async def fetch_html(client, url):
         response.raise_for_status()
         return response.text
     except httpx.HTTPError as e:
-        print(f"Error fetching {url}: {e}")
+        logging.error(f"Error fetching {url}: {e}")
         return ""
 
 
