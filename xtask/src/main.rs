@@ -3,10 +3,11 @@
 // Permission to use, copy, modify, and/or distribute this file for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 // See the LICENSE file in the project root for full license text.
 
-use std::env;
+use std::env::{self, Args};
 use std::fs;
 use std::io::Write;
-use std::path::Path;
+use std::iter::Skip;
+use std::path::{Path, PathBuf};
 use std::process::{exit, Command, Stdio};
 
 const CARGO_CLIPPY_ARGS: &[&str] =
@@ -29,12 +30,11 @@ fn get_cargo_home_bin(tool_name: &str) -> String {
             return path.to_string_lossy().into_owned();
         }
     }
-    // Fallback or error if not found, though xtask might rely on it being in PATH if these fail
     eprintln!(
         "Warning: Could not determine cargo binary path for {} via CARGO_HOME, HOME, or USERPROFILE. Assuming it's in PATH.",
         tool_name
     );
-    tool_name.to_string() // Default to tool_name, assuming it's in PATH
+    tool_name.to_string()
 }
 
 fn run_cargo_with_input(
@@ -78,7 +78,7 @@ fn run_cargo_with_input(
     status.success()
 }
 
-fn run_command(command: &str, args: &[&str], working_dir: Option<&Path>) {
+fn run_command(command: &str, args: &[&str], working_dir: Option<&Path>) -> anyhow::Result<()> {
     let mut cmd_instance = Command::new(command);
     cmd_instance.args(args);
     if let Some(dir) = working_dir {
@@ -91,12 +91,12 @@ fn run_command(command: &str, args: &[&str], working_dir: Option<&Path>) {
         .stdout(Stdio::inherit())
         .stderr(Stdio::inherit())
         .status()
-        .expect(&format!("Failed to execute command: {}", command));
+        .map_err(|e| anyhow::anyhow!("Failed to execute command: {}: {}", command, e))?;
 
     if !status.success() {
-        eprintln!("Command {} {} failed with status: {}", command, args.join(" "), status);
-        exit(1);
+        anyhow::bail!("Command {} {} failed with status: {}", command, args.join(" "), status);
     }
+    Ok(())
 }
 
 fn validate_mistake_file(file_path: &Path, project_root: &Path) -> bool {
@@ -105,8 +105,13 @@ fn validate_mistake_file(file_path: &Path, project_root: &Path) -> bool {
         eprintln!("Error: Mistake file not found: {:?}", file_path);
         return false;
     }
-    let content_str = fs::read_to_string(file_path)
-        .expect(&format!("Failed to read mistake file: {:?}", file_path));
+    let content_str = match fs::read_to_string(file_path) {
+        Ok(s) => s,
+        Err(e) => {
+            eprintln!("Failed to read mistake file: {:?}: {}", file_path, e);
+            return false;
+        }
+    };
 
     if content_str.trim().is_empty() {
         println!("Mistake file {:?} is empty, considering it valid.", file_path);
@@ -126,8 +131,13 @@ fn validate_mistake_file(file_path: &Path, project_root: &Path) -> bool {
                 }
                 for (index, entry) in arr.iter().enumerate() {
                     println!("Validating entry {} in file {:?}", index, file_path);
-                    let entry_str = serde_json::to_string(entry)
-                        .expect("Failed to re-serialize entry for validation");
+                    let entry_str = match serde_json::to_string(entry) {
+                        Ok(s) => s,
+                        Err(e) => {
+                            eprintln!("Failed to re-serialize entry for validation: {}", e);
+                            return false;
+                        }
+                    };
                     if !run_cargo_with_input("fuckup", &[], &entry_str, project_root) {
                         eprintln!("Error: Entry {} in file {:?} is not valid.", index, file_path);
                         return false;
@@ -150,49 +160,50 @@ fn validate_mistake_file(file_path: &Path, project_root: &Path) -> bool {
 
 // --- xtask subcommands ---
 
-fn xtask_quicktype(args: &mut std::iter::Skip<std::env::Args>, project_root: &Path) {
+fn xtask_quicktype(args: &mut Skip<Args>, project_root: &Path) -> anyhow::Result<()> {
     if let Some(input_file) = args.next() {
         run_command(
             &get_cargo_home_bin("quicktype"),
             &["--lang", "rust", "--src", &input_file],
             Some(project_root),
-        );
+        )?;
     } else {
         eprintln!("Usage: cargo xtask quicktype <input.json>");
         exit(1);
     }
+    Ok(())
 }
 
-fn xtask_check(project_root: &Path) {
-    run_command("cargo", &["check", "--all-targets", "--all-features"], Some(project_root));
+fn xtask_check(project_root: &Path) -> anyhow::Result<()> {
+    run_command("cargo", &["check", "--all-targets", "--all-features"], Some(project_root))
 }
 
-fn xtask_clippy(project_root: &Path) {
-    run_command("cargo", CARGO_CLIPPY_ARGS, Some(project_root));
+fn xtask_clippy(project_root: &Path) -> anyhow::Result<()> {
+    run_command("cargo", CARGO_CLIPPY_ARGS, Some(project_root))
 }
 
-fn xtask_doc(args: &mut std::iter::Skip<std::env::Args>, project_root: &Path) {
+fn xtask_doc(args: &mut Skip<Args>, project_root: &Path) -> anyhow::Result<()> {
     let mut doc_args = vec!["doc", "--no-deps"];
     if args.any(|arg| arg == "--open") {
         doc_args.push("--open");
     }
-    run_command("cargo", &doc_args, Some(project_root));
+    run_command("cargo", &doc_args, Some(project_root))
 }
 
 fn xtask_mistake_add(
-    args: &mut std::iter::Skip<std::env::Args>,
+    args: &mut Skip<Args>,
     project_root: &Path,
     mistakes_log_file_path: &Path,
-) {
+) -> anyhow::Result<()> {
     if let Some(new_entry_file_str_val) = args.next() {
         let new_entry_file_str = &new_entry_file_str_val;
         let new_entry_file = project_root.join(new_entry_file_str);
         if !new_entry_file.exists() {
-            eprintln!(
-                "Error: New mistake entry file not found: {}\n (Full path: {:?})",
-                new_entry_file_str, new_entry_file
+            anyhow::bail!(
+                "Error: New mistake entry file not found: {}\\n (Full path: {:?})",
+                new_entry_file_str,
+                new_entry_file
             );
-            exit(1);
         }
         println!(
             "Attempting to add new mistake from: {} (relative to project root)",
@@ -200,27 +211,27 @@ fn xtask_mistake_add(
         );
 
         if !validate_mistake_file(&new_entry_file, project_root) {
-            eprintln!(
+            anyhow::bail!(
                 "Error: New mistake entry file {:?} is not valid according to the schema.",
                 new_entry_file
             );
-            exit(1);
         }
         println!("New mistake entry file {:?} is valid.", new_entry_file);
 
-        let new_entry_content_str =
-            fs::read_to_string(&new_entry_file).expect("Failed to read new mistake entry file.");
+        let new_entry_content_str = fs::read_to_string(&new_entry_file)
+            .map_err(|e| anyhow::anyhow!("Failed to read new mistake entry file: {}", e))?;
         let new_entry_json: serde_json::Value = serde_json::from_str(&new_entry_content_str)
-            .expect("Failed to parse new mistake entry JSON.");
+            .map_err(|e| anyhow::anyhow!("Failed to parse new mistake entry JSON: {}", e))?;
 
         let mut mistakes_list: Vec<serde_json::Value> = if mistakes_log_file_path.exists() {
             let log_content = fs::read_to_string(mistakes_log_file_path)
-                .expect("Failed to read mistakes.json log file.");
+                .map_err(|e| anyhow::anyhow!("Failed to read mistakes.json log file: {}", e))?;
             if log_content.trim().is_empty() {
                 Vec::new()
             } else {
-                serde_json::from_str(&log_content)
-                    .expect("Failed to parse mistakes.json as JSON array.")
+                serde_json::from_str(&log_content).map_err(|e| {
+                    anyhow::anyhow!("Failed to parse mistakes.json as JSON array: {}", e)
+                })?
             }
         } else {
             Vec::new()
@@ -228,10 +239,12 @@ fn xtask_mistake_add(
 
         mistakes_list.push(new_entry_json);
 
-        let updated_log_content = serde_json::to_string_pretty(&mistakes_list)
-            .expect("Failed to serialize updated mistakes list to JSON.");
-        fs::write(mistakes_log_file_path, updated_log_content)
-            .expect("Failed to write updated mistakes.json log file.");
+        let updated_log_content = serde_json::to_string_pretty(&mistakes_list).map_err(|e| {
+            anyhow::anyhow!("Failed to serialize updated mistakes list to JSON: {}", e)
+        })?;
+        fs::write(mistakes_log_file_path, updated_log_content).map_err(|e| {
+            anyhow::anyhow!("Failed to write updated mistakes.json log file: {}", e)
+        })?;
         println!(
             "Successfully added new entry to {:?}\nContent:\n{}",
             mistakes_log_file_path,
@@ -239,21 +252,21 @@ fn xtask_mistake_add(
         );
 
         if !validate_mistake_file(mistakes_log_file_path, project_root) {
-            eprintln!("Error: The updated {:?} is not valid.", mistakes_log_file_path);
-            exit(1);
+            anyhow::bail!("Error: The updated {:?} is not valid.", mistakes_log_file_path);
         }
         println!("Updated {:?} is valid.", mistakes_log_file_path);
     } else {
         eprintln!("Usage: cargo xtask mistake add <path_to_new_mistake_entry.json>");
         exit(1);
     }
+    Ok(())
 }
 
 fn xtask_mistake_validate(
-    args: &mut std::iter::Skip<std::env::Args>,
+    args: &mut Skip<Args>,
     project_root: &Path,
     mistakes_log_file_path: &Path,
-) {
+) -> anyhow::Result<()> {
     let file_to_validate_str_opt = args.next();
     let file_path_to_validate = match file_to_validate_str_opt.as_deref() {
         Some(f_str) => project_root.join(f_str),
@@ -263,26 +276,26 @@ fn xtask_mistake_validate(
     if validate_mistake_file(&file_path_to_validate, project_root) {
         println!("Mistake file {:?} is valid.", file_path_to_validate);
     } else {
-        eprintln!("Mistake file {:?} is NOT valid.", file_path_to_validate);
-        exit(1);
+        anyhow::bail!("Mistake file {:?} is NOT valid.", file_path_to_validate);
     }
+    Ok(())
 }
 
-fn xtask_mistake_legacy_validate(file_str: &str, project_root: &Path) {
+fn xtask_mistake_legacy_validate(file_str: &str, project_root: &Path) -> anyhow::Result<()> {
     let file_path = project_root.join(file_str);
     if validate_mistake_file(&file_path, project_root) {
         println!("File {:?} is valid.", file_path);
     } else {
-        eprintln!("File {:?} is NOT valid.", file_path);
-        exit(1);
+        anyhow::bail!("File {:?} is NOT valid.", file_path);
     }
+    Ok(())
 }
 
 fn xtask_mistake(
-    args: &mut std::iter::Skip<std::env::Args>,
+    args: &mut Skip<Args>,
     project_root: &Path,
     mistakes_log_file_path: &Path,
-) {
+) -> anyhow::Result<()> {
     match args.next().as_deref() {
         Some("add") => xtask_mistake_add(args, project_root, mistakes_log_file_path),
         Some("validate") => xtask_mistake_validate(args, project_root, mistakes_log_file_path),
@@ -297,70 +310,69 @@ fn xtask_mistake(
     }
 }
 
-fn xtask_taplo_format(project_root: &Path) {
+fn xtask_taplo_format(project_root: &Path) -> anyhow::Result<()> {
     let taplo_path = get_cargo_home_bin("taplo");
-    run_command(&taplo_path, &["format", "."], Some(project_root));
+    run_command(&taplo_path, &["format", "."], Some(project_root))
 }
 
-fn xtask_taplo_lint(project_root: &Path) {
+fn xtask_taplo_lint(project_root: &Path) -> anyhow::Result<()> {
     let taplo_path = get_cargo_home_bin("taplo");
-    run_command(&taplo_path, &["lint", "."], Some(project_root));
+    run_command(&taplo_path, &["lint", "."], Some(project_root))
 }
 
-fn xtask_pre_commit_run(project_root: &Path) {
-    run_command("pre-commit", &["run", "--all-files"], Some(project_root));
+fn xtask_pre_commit_run(project_root: &Path) -> anyhow::Result<()> {
+    run_command("pre-commit", &["run", "--all-files"], Some(project_root))
 }
 
-fn xtask_pre_commit_install(project_root: &Path) {
-    run_command("pre-commit", &["install"], Some(project_root));
+fn xtask_pre_commit_install(project_root: &Path) -> anyhow::Result<()> {
+    run_command("pre-commit", &["install"], Some(project_root))
 }
 
-fn xtask_cargo_about(project_root: &Path) {
+fn xtask_cargo_about(project_root: &Path) -> anyhow::Result<()> {
     let output_target = if cfg!(windows) { "NUL" } else { "/dev/null" };
     run_command(
         "cargo",
         &["about", "generate", "--format", "json", "-o", output_target],
         Some(project_root),
-    );
+    )
 }
 
-fn xtask_build(project_root: &Path) {
-    run_command("cargo", &["build", "--all-targets", "--all-features"], Some(project_root));
+fn xtask_build(project_root: &Path) -> anyhow::Result<()> {
+    run_command("cargo", &["build", "--all-targets", "--all-features"], Some(project_root))
 }
 
-fn xtask_test(project_root: &Path) {
+fn xtask_test(project_root: &Path) -> anyhow::Result<()> {
     run_command(
         "cargo",
         &["test", "--all-targets", "--all-features", "--verbose"],
         Some(project_root),
-    );
+    )
 }
 
-fn xtask_all_ci(project_root: &Path) {
+fn xtask_all_ci(project_root: &Path) -> anyhow::Result<()> {
     println!("Running all CI checks (xtask ci)...");
-    let mut all_passed = true;
 
     println!("\n==> Formatting TOML files (taplo-format)");
-    xtask_taplo_format(project_root);
+    xtask_taplo_format(project_root)?;
 
     println!("\n==> Linting TOML files (taplo-lint)");
-    xtask_taplo_lint(project_root);
+    xtask_taplo_lint(project_root)?;
 
     println!("\n==> Linting Rust code (cargo clippy)");
-    xtask_clippy(project_root);
+    xtask_clippy(project_root)?;
 
     println!("\n==> Running tests (cargo test)");
-    xtask_test(project_root);
+    xtask_test(project_root)?;
 
     println!("\n==> Checking Rust code (cargo check)");
-    xtask_check(project_root);
+    xtask_check(project_root)?;
 
     println!("\n==> Building documentation (cargo doc)");
-    let mut empty_args = env::args().skip(usize::MAX); // Create an empty iterator
-    xtask_doc(&mut empty_args, project_root);
+    let mut empty_args = env::args().skip(usize::MAX);
+    xtask_doc(&mut empty_args, project_root)?;
 
     println!("\n==> Checking license compliance (cargo-about)");
-    xtask_cargo_about(project_root);
+    xtask_cargo_about(project_root)?;
 
     println!("\n==> Running pre-commit hooks (if configured and installed)");
     match Command::new("pre-commit")
@@ -371,20 +383,20 @@ fn xtask_all_ci(project_root: &Path) {
     {
         Ok(status) => {
             if status.success() {
-                let pre_commit_run_output = Command::new("pre-commit")
+                let pre_commit_run_status = Command::new("pre-commit") // Changed to .status()
                     .args(&["run", "--all-files"])
                     .current_dir(project_root)
                     .stdout(Stdio::inherit())
                     .stderr(Stdio::inherit())
-                    .output()
-                    .expect("Failed to execute pre-commit run");
+                    .status() // Changed to .status()
+                    .map_err(|e| anyhow::anyhow!("Failed to execute pre-commit run: {}", e))?;
 
-                if !pre_commit_run_output.status.success() {
-                    eprintln!(
+                if !pre_commit_run_status.success() {
+                    // Check status directly
+                    anyhow::bail!(
                         "pre-commit run --all-files failed with status: {}",
-                        pre_commit_run_output.status
+                        pre_commit_run_status
                     );
-                    all_passed = false;
                 }
             } else {
                 println!("Skipping pre-commit run as pre-commit --version did not succeed (is pre-commit configured correctly and in PATH?).");
@@ -395,34 +407,29 @@ fn xtask_all_ci(project_root: &Path) {
         }
     }
 
-    if all_passed {
-        println!("\nAll CI checks passed!");
-    } else {
-        eprintln!("\nSome CI checks failed.");
-        exit(1);
-    }
+    println!("\nAll CI checks passed!");
+    Ok(())
 }
 
-// TODO: Consider using a CLI framework like clap or structopt for clearer argument definitions and automatic help generation.
-fn main() {
-    let project_root = Path::new(env!("CARGO_MANIFEST_DIR")).parent().unwrap().to_path_buf();
+fn main() -> anyhow::Result<()> {
+    let project_root = PathBuf::from(env!("CARGO_MANIFEST_DIR")).parent().unwrap().to_path_buf();
     let mut args = env::args().skip(1);
     let mistakes_log_file_path = project_root.join("mistakes.json");
 
     match args.next().as_deref() {
-        Some("quicktype") => xtask_quicktype(&mut args, &project_root),
-        Some("check") => xtask_check(&project_root),
-        Some("clippy") => xtask_clippy(&project_root),
-        Some("doc") => xtask_doc(&mut args, &project_root),
-        Some("mistake") => xtask_mistake(&mut args, &project_root, &mistakes_log_file_path),
-        Some("taplo-format") => xtask_taplo_format(&project_root),
-        Some("taplo-lint") => xtask_taplo_lint(&project_root),
-        Some("pre-commit-run") => xtask_pre_commit_run(&project_root),
-        Some("pre-commit-install") => xtask_pre_commit_install(&project_root),
-        Some("cargo-about") => xtask_cargo_about(&project_root),
-        Some("build") => xtask_build(&project_root),
-        Some("test") => xtask_test(&project_root),
-        Some("all") | Some("ci") => xtask_all_ci(&project_root),
+        Some("quicktype") => xtask_quicktype(&mut args, &project_root)?,
+        Some("check") => xtask_check(&project_root)?,
+        Some("clippy") => xtask_clippy(&project_root)?,
+        Some("doc") => xtask_doc(&mut args, &project_root)?,
+        Some("mistake") => xtask_mistake(&mut args, &project_root, &mistakes_log_file_path)?,
+        Some("taplo-format") => xtask_taplo_format(&project_root)?,
+        Some("taplo-lint") => xtask_taplo_lint(&project_root)?,
+        Some("pre-commit-run") => xtask_pre_commit_run(&project_root)?,
+        Some("pre-commit-install") => xtask_pre_commit_install(&project_root)?,
+        Some("cargo-about") => xtask_cargo_about(&project_root)?,
+        Some("build") => xtask_build(&project_root)?,
+        Some("test") => xtask_test(&project_root)?,
+        Some("all") | Some("ci") => xtask_all_ci(&project_root)?,
         Some(other) => {
             eprintln!("Unknown xtask command: {}", other);
             print_help();
@@ -434,6 +441,7 @@ fn main() {
             exit(1);
         }
     }
+    Ok(())
 }
 
 fn print_help() {
