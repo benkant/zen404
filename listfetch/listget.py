@@ -50,12 +50,7 @@ def parse_tracklist(html_content, show_url):
             mashup_name = mash_title.get_text(strip=True)
             for mt in mash_tracks:
                 text = mt.get_text(strip=True)
-                if "–" in text:
-                    artist, title = map(str.strip, text.split("–", 1))
-                elif "-" in text:
-                    artist, title = map(str.strip, text.split("-", 1))
-                else:
-                    artist, title = "", text
+                artist, title = split_artist_and_title(text)
                 tracks.append(
                     {
                         "show_url": show_url,
