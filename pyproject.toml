@@ -1,0 +1,20 @@
+[project]
+name = "listfetch"
+version = "0.1.0"
+description = "Python scripts for fetching and processing tracklists."
+dependencies = [
+    "httpx>=0.20",
+ "beautifulsoup4>=4.9",
+ "pydantic>=1.8",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["uv", "ruff", "ty", "pytest", "httpx", "beautifulsoup4"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I"] # Basic Ruff checks
+
+[tool.ty.src]
+root = "./listfetch"
