@@ -1,0 +1,408 @@
+0126 Back Door Man – Howlin’ Wolf Close-miked Chicago blues; snarling vocal and guitar sit dry and forward, kit hits clamp quickly.
+0127 The Red Rooster – Howlin’ Wolf Heavy front-centre slide, lean rhythm section; almost no room bloom, just mid-band bite.
+0135 Boom Boom – John Lee Hooker Choked drums, forward vocal and guitar throb; dry club acoustic yields raw punch.
+0137 Do You Love Me – The Contours Motown floor-tom thump, horn stabs gated hard; brisk transient attack, little ambience.
+0141 Harlem Shuffle – Bob & Earl Crisp mono drums and congas; upfront vocal and riff, taut low-end, minimal space.
+0143 Louie Louie – The Kingsmen Garage mono thud; distorted kit and barked vocal right up front, zero polish.  ￼
+0148 Surfin’ Bird – The Trashmen Barking vocal, crushed drums, fuzz guitar; no reverb depth, just slam.  ￼
+0158 Dancing in the Street – Martha & The Vandellas Tambourine-bright groove, bone-dry kick and snare; maximum drive.
+0161 You Really Got Me – The Kinks Aggressive pre-amp guitar distortion, stubby snare hits; mix dry, mid-heavy.  ￼
+0169 Papa’s Got a Brand New Bag – James Brown Tight “on-the-one” kick, horn jabs clipped fast; spare ambience emphasises attack.  ￼
+0173 (I Can’t Get No) Satisfaction – The Rolling Stones Fuzz-box riff and clipped kit; lean room, mid-range shove.
+0178 Who Do You Love – The Preachers Over-driven garage cut; drums mic’d close, vocals distort into console, no depth.
+0180 Psycho – The Sonics Brutal pre-punk gain staging, stiff snare, no room mics; raw transient bite.  ￼
+0185 My Generation – The Who Rattling bass and hi-wired snare, amp-top vocals; mix dry and urgent.  ￼
+0190 You’re Gonna Miss Me – 13th Floor Elevators Hot-level jug drone, snare saturates early; forward mids dominate.
+0191 Substitute – The Who Kick and snare clamped, jangling chords hard-panned; tiny room, large impact.  ￼
+0195 Summer In The City – The Lovin’ Spoonful Compressed piano rhythm, clacky percussion; dry verses, punchy brass hits.  ￼
+0203 7 and 7 Is – Love Hyper-compressed kit, fuzz guitar overload; vocal rushes out front with little space.
+0205 Pushin’ Too Hard – The Seeds Boxy organ and snare hammer in mono; dryness underscores garage edge.  ￼
+0206 Psychotic Reaction – The Count Five Rattling kick, tearing fuzz guitars; spare mix heightens aggression.
+0207 Reach Out I’ll Be There – The Four Tops Rim-shot snare dry and bright, tambourine tight; vocal forward, room subdued.  ￼
+0212 Friday On My Mind – The Easybeats Crack-back snare, trebly guitars, little reverb; song feels right against the grill.
+0213 I’m A Believer – The Monkees Fast-attack drums, jangling guitars clipped; vocals crisp and dry.
+0215 I Feel Free – Cream Lean rhythm section, minimal vocal slap; thick mid guitar yet close-mic clarity.
+0216 You Keep Me Hangin’ On – The Supremes Clipped tambourine, tight groove; Motown dryness delivers punch.
+0217 Happening Ten Years Time Ago – The Yardbirds Double-tracked guitars buzz dry, drums gated; intense forward mix.
+0220 Electricity – Captain Beefheart & The Magic Band Harsh amp overload, drums hot in mono; space stripped for impact.
+0224 For What It’s Worth – Buffalo Springfield Taut two-mic kit, muted ambience, vocal intimate; guitar stabs crisp.
+0226 I’d Rather Go Blind – Etta James Close vocal, dry guitar tremolo; restrained room adds soulful punch.
+0227 (Your Love Keeps Lifting Me) Higher and Higher – Jackie Wilson Propulsive drums, horn pops locked in; minimal room, brisk attack.
+0230 Purple Haze – Jimi Hendrix	Fuzz-wall guitars ride a very close-miked kit; transients bite, ambience is almost zero.  ￼
+0231 I’m A Man – Spencer Davis Group	Hammond grind and dry tom thud sit right at the cones; Winwood’s vocal clipped, room almost gone.  ￼ ￼
+0233 Fire – Jimi Hendrix Experience	Snare slap and bass punch hard, guitars clipped into the console; mix is lean and forward.  ￼ ￼
+0235 Ode to Billy Joe – Bobbie Gentry	Dead drum room, intimate vocal, acoustic bass right up front; minimal air.
+0238 Respect – Aretha Franklin	Muscle-Shoals band gated tight; tambourine and snare crack with no plate tail.  ￼ ￼
+0242 Tin Soldier – Small Faces	Mono-ish kit, over-driven organ and vocal mid-push; space kept tiny.  ￼
+0245 The Tears of a Clown – Smokey Robinson & The Miracles	Tambourine and rim-shot snare punch; horn stabs dry; groove locked.  ￼
+0246 Sunshine of Your Love – Cream	Close toms, crunchy EB-3 bass, virtually no room verb—just mid-band shove.  ￼
+0247 Cold Sweat – James Brown & The Famous Flames	On-the-one kick, clipped horns, bone-dry handclaps; groove is pure attack.  ￼
+0248 The First Cut Is the Deepest – P.P. Arnold	Olympic-studio close drums, strings up front; reverb held in check.  ￼
+0249 I Say a Little Prayer – Aretha Franklin	Snare and tambourine razor-sharp, piano hard-panned, very little back-room bloom.  ￼
+0250 The Snake – Al Wilson	Crisp snare/kick pocket, horn riffs right at the listener, ambience nil.
+0252 The Israelites – Desmond Dekker & The Aces	Skank guitar and rim-shot kit land dry; vocal sits on top, spring verb minimal.  ￼
+0254 I Heard It Through the Grapevine – Marvin Gaye	Tambourine and bass locked in mono centre, vocal compressed, reverb lightly feathered.
+0257 Piece of My Heart – Big Brother & The Holding Company	Raw guitar roar, loud close-miked kit, hall tail kept short for fist-in-face feel.
+0258 Say It Loud – James Brown	Popping bass and call-and-response horns clipped; crowd ambience tight and shallow.
+0259 Hard to Handle – Otis Redding	Stax snare crack, guitar riffs crisp, vocal bone-dry and forward.
+0260 A Minha Menina – Os Mutantes	Clattering drums and fuzz guitar flood the mids; room reflections virtually muted.
+0261 Sympathy for the Devil – Rolling Stones	Conga loop, dry maracas, and Mick’s vocal sit right on the listener’s nose.
+0262 Pressure Drop – Toots & The Maytals	Tight rimshot groove, vocal close, spring verb faint—reggae with rock punch.
+0265 Voodoo Child (Slight Return) – Jimi Hendrix	Wah guitar leaps out, cymbals gated fast; stereo field wide but room minimal.
+0271 I’m Just a Prisoner – Candi Staton	Muscle-Shoals kick/snare locked, vocal dry-compressed, guitar stabs bright.
+0274 In the Ghetto – Elvis Presley	Nashville drums close, strings tucked; Elvis up-front, plate barely audible.
+0275 Oh Well Part I & II – Fleetwood Mac	Snare crack and guitar attack dominate; ambience stripped to basics.
+0276 The Real Thing – Russell Morris	Psychedelic but dry—slapped drums and vocal compressed hard, verb kept short.
+0277 Sister Morphine – Marianne Faithfull	Dead-room tremolo guitar, whisper vocal close; kit hits burn through with no wash.
+0279 Heartbreaker – Led Zeppelin	Tight right-panned kit, guitar stabs raw and dry, vocal slapback minimal.
+0282 Suspicious Minds – Elvis Presley	Punchy Memphis rhythm, clipped horns, Elvis centred and dry-compressed.
+0284 Pinball Wizard – The Who	Close acoustic and kit, vocal chesty; rapid transient clamp, negligible room.
+0286 Is It Because I’m Black – Syl Johnson	Snare rim-shot dryness, vocal intimate, bass mid-forward; ambience almost absent.
+0287 I Want To Take You Higher – Sly & The Family Stone Tight stereo drum-kit, bone-dry slap-bass and clipped horn stabs give a fast, up-front mid-band focus with almost no ambience – pure punch over polish.  ￼
+0290 I Wanna Be Your Dog – The Stooges Close-mic’d fuzz guitars and dead-room drums; minimal reverb means the snare crack and riff roar land like a 2-bus limiter on stun.  ￼
+0292 I Want You Back – Jackson 5 Motown’s hyper-compressed rhythm section and percussive bass produce the fast transients and glass-clear separation typical of an SSL-type mix.  ￼
+0294 Up Around the Bend – Creedence Clearwater Revival Double-tracked Telecasters and a snare with no tail sit bone-dry, giving ferocious transient edge and forward mids.  ￼
+0297 When the Revolution Comes – The Last Poets Spoken-word over ultra-dry hand-drums; zero room reflections, so every syllable and rim-click jumps straight out of the speakers.  ￼
+0298 Band of Gold – Freda Payne Detroit rhythm section mixed crisp and bright; kick, tambourine and guitar all hit with SSL-style snap and very little low-mid haze.  ￼
+0302 Black Night – Deep Purple Dry, close-miked kit and saturated guitar mids; the mix is lean, fast and aggressive rather than roomy or tape-pillowy.  ￼
+0303 War – Edwin Starr Clavinet stabs, clipped horns and a punchy, gate-tight kit give the track its famously militant, front-of-speaker attack.  ￼
+0304 Young, Gifted & Black – Bob & Marcia Rock-steady groove mixed almost dry; skank guitar and rim-shot snare ride point-blank, exaggerating transients over warmth.  ￼
+0305 Ball of Confusion – The Temptations Twin-kit funk track with compressed, reverb-free drums and wah-guitar—tight, clinical mid-range very much in SSL territory.  ￼
+0307 The Man Who Sold the World – David Bowie Trident-era close-kit, dry acoustic guitar and direct bass put bite ahead of bloom, mirroring later G-series console mixes.  ￼
+0312 Sex Machine – James Brown Knife-edge hi-hat, bone-dry kick and bass locked by hard compression; nothing clouds the urgent mid-band groove.  ￼
+0317 54-46 That’s My Number – Toots & The Maytals Spare reggae rhythm printed hot and dry; snare crack and organ chops push hard, free of dub-style ambience.
+0321 Bang a Gong (Get It On) – T. Rex Tight drums, close-miked baritone sax and fuzz-guitar all hit the desk hard, giving glam-rock sheen without tape haze.  ￼
+0328 Maggie May – Rod Stewart Dead-room drum overdubs and DI’d bass yield sharp leading edges that slice through the mandolin and acoustic layers.
+0333 Theme from Shaft – Isaac Hayes Clavinet riff, wah-wah guitar and dry congas ride over a tightly gated kick—fast transients, sparse ambience.  ￼
+0334 The Revolution Will Not Be Televised – Gil Scott-Heron Mono conga-bass bed, spoken vocal bone-dry and hyper-present; every transient uncluttered by room tone.  ￼
+0337 Tired of Being Alone – Al Green Hi-Records drum sound: clipped snare, minimal plate, and vocal printed inches from the capsule—punch over warmth.
+0338 Won’t Get Fooled Again – The Who G-series-style drum gating a decade early: kick and snare slam upfront while synth and vocals stay surgically separated.
+0344 Inner City Blues – Marvin Gaye Dry kit, DI bass and short-decay bongos give the groove a clipped urgency, with no room clouding the low mids.
+0345 Papa Was a Rollin’ Stone – The Temptations Long intro built on bone-dry hi-hat and muted bass; space achieved with faders, not reverb—classic punch-then-air mix.
+0346 I’ll Take You There – The Staple Singers Stax rhythm section, tight kick and tambourine mixed forward; vocal sits dry and highly present.
+0347 Soul Makossa – Manu Dibango Compressed conga-drums and reed stabs delivered with studio dryness, highlighting the syncopated attack.  ￼
+0348 Superstition – Stevie Wonder Clavinet and kit tracked bone-dry and mixed hot; rapid transients and mid-range bark scream SSL long before the desk existed.  ￼
+0352 It’s a Rainy Day, Sunshine Girl – Faust Neu-ish motorik groove captured close and dry; drum transients dominate, with guitars sitting flat and punchy.
+0354 Silver Machine – Hawkwind Over-driven bass and tight snare with little ambience; mix is forward, edgy and mercilessly dry.
+0357 Big Eyed Beans from Venus – Captain Beefheart & His Magic Band No-frills room, close-miked drums and abrasive guitar mids—attack trumps atmosphere.
+0359 Mama Weer All Crazee Now – Slade Handclaps and snare gated hard; guitars square-wave crunchy but held forward with very little room spill.
+0361 The Night – Frankie Valli & The Four Seasons Northern-soul groove built on dry, EQ-bright drums and bass; vocal rides on top with SSL-style clarity.
+0362 Reelin’ in the Years – Steely Dan Bright, razor-edged guitar leads and dry drum buss compression; hyper-clean separation, zero tape haze.  ￼
+0364	Most People I Know – Billy Thorpe & The Aztecs	Tight Aussie pub-rock cut; snare gated hard, guitars front-loaded, virtually no plate wash.
+0366	Walk on the Wild Side – Lou Reed	Trident’s close-miked kit and DI bass give huge punch; width from pan, not reverb.
+0367	Virginia Plain – Roxy Music	Instant-attack drums, dry DI bass, synths slotted surgically at 3–5 kHz.
+0368	You’re So Vain – Carly Simon	Gated toms and “grabby” 1176 on vocal; ambience almost fully stripped.
+0371	Superfly – Curtis Mayfield	Snap-tight kick & congas, sine-wy bass, razor-edged wah guitar; ambience muted.
+0372	Crazy Horses – The Osmonds	Massive mid-scooped crunch guitar, clipped room, kick punches at 80 Hz.
+0373	All the Young Dudes – Mott the Hoople	Bowie’s mix pushed drums up, used hard stereo limiting—very little tail.
+0374	Personality Crisis – New York Dolls	Airless, brick-walled garage kit; guitars knife through upper-mids.
+0375	The Ballroom Blitz – The Sweet	Fast-release bus comp yields explosive snare, no cavernous glam echo.
+0376	Jolene – Dolly Parton	Dry, nasal vocal up-front; banjo/strums EQ-carved to leave sub free for kick.
+0378	20th Century Boy – T. Rex	Fuzz guitar close-cab’d, snare slap-back < 120 ms, otherwise bone-dry.
+0379	Rock On – David Essex	Kick sampled to tape loop, mono slap on vox; bass compressed to glue mix.
+0380	Search and Destroy – Iggy & The Stooges	Violent 2-kHz snare bite, guitars center-weight, ambience shelved off.
+0385	Cum On Feel the Noize – Slade	Hi-mid “clang” guitars, thudding close-kit; crowd overdubs kept dry.
+0386	Living for the City – Stevie Wonder	Drums printed hot via API console, gated; clav pokes at 1.2 kHz.
+0387	I Can’t Stand the Rain – Ann Peebles	Iconic Maestro Rhythm King pulse—utterly dry—plus boxy 200-Hz snare.
+0393	Ain’t No Love in the Heart of the City – Bobby Bland	Pulse-tight Hi Rhythm Section groove, horn plate mixed down, kit very forward.
+0395	Sweet Home Alabama – Lynyrd Skynyrd	Clean, close-drum sound, guitars doubled but dry; plates almost inaudible.
+0396	Piss Factory – Patti Smith Group	Sparse band, bone-dry snare crack, vocal peaks clamped by fast FET comp.
+0397	Evie – Stevie Wright	Punch-in-the-chest kick, tambourine hard-panned, negligible room.
+0403	You Haven’t Done Nothin’ – Stevie Wonder	Clavinet-driven groove, kit gated, horn stabs dry & left; bass DI.
+0404	This Town Ain’t Big Enough for Both of Us – Sparks	Sustained-note strings side-panned; central kit gated to silence, vocals compressed.
+0406	Jive Talkin’ – Bee Gees	Muted-chuck guitar and kick gated; rhythm section ultra-dry, disco sheen.
+0409	Fight the Power (Parts 1 & 2) – Isley Brothers	Kick & bass locked by tight VCA comp; horn room nearly closed.
+0410	That’s the Way (I Like It) – KC & The Sunshine Band	Bass & kick phase-aligned, congas close-miked; reverb at −20 dBFS.
+0414	Gloria – Patti Smith	Huge 4-kHz snare smack, guitars double-tracked but bone-dry; room killed.
+0416	Walk This Way – Aerosmith	Kick/snare printed through Kepex gates; ribbon-guitar cabs up-front.
+0425	(Don’t Fear) The Reaper – Blue Öyster Cult	Tight-EQ’d drums & cowbell; tracks compressed hard, reverb minimal.
+0427	Sir Duke – Stevie Wonder	Brass pops with zero tail; kit gated, bass synth DI-punchy.
+0430	Blitzkrieg Bop – Ramones	Fast FET clamp on drums, guitars hi-passed, mix room-free.
+0431	Love Hangover – Diana Ross	Slick four-on-the-floor pulse, close-miked drums, minimal room; Russ Terrana’s Motown-gone-disco mix keeps every transient dry and forward.  ￼
+0432	Cokane In My Brain – Dillinger	Sly & Robbie rhythm beds sampled then gated; bone-dry kick/hat loop anchors an otherwise reggae vocal.  ￼
+0434	(I’m) Stranded – The Saints	Brash guitars hard-panned, snare with almost no verb; the Brisbane session sounds like a rehearsal room miked for impact.  ￼
+0435	Hotel California – The Eagles	Focused, air-tight drum buss and DI-like twelve-string; ambience added only on solos—overall crisp West-Coast punch.
+0436	Roadrunner – The Modern Lovers	Mono-leaning balance, dry bass drum, and nasal Vox guitars right up front; barely any effects cloud the picture.
+0437	American Girl – Tom Petty & The Heartbreakers	Bright, attack-heavy kit with gated room mics and jangling Rickenbacker mids—no swamp left in the mix.
+0439	Young Hearts Run Free – Candi Staton	Disco rhythm section mixed taut, bass pops, congas clipped short of reverb tails; vocals ride a VCA style compressor.
+0441	New Rose – The Damned	Nick Lowe’s first-take punk capture: dry hi-hat, boxy mids, zero plate on vocals—pure board crunch.  ￼
+0442	Anarchy in the U.K. – Sex Pistols	Wall-of-Les-Pauls double-tracked then tightly limited; kit lives in your face with no bloom—fast-release compression everywhere.  ￼ ￼
+0445	God Save the Queen – Sex Pistols	Cadac remix stripped room out further—snare slap, bass punch, everything rams the mix-bus headroom.  ￼
+0446	Trans-Europe Express – Kraftwerk	Sequenced kick, razor-sharp synth pulses, and almost anechoic vocal doubles—quintessential dry technopop sheen.  ￼ ￼
+0447	Sweet Gene Vincent – Ian Dury	Pub-rock rhythm recorded straight to tape; clipped vocal peaks and bone-dry drums emphasise the lyrical snap.
+0449	Dum Dum Boys – Iggy Pop	Berlin-era kit gated tight, bar-room guitars mid-forward; ambience lurks only on the outro feedback.
+0451	Ghost Rider – Suicide	Drum machine click and organ riff in an almost clinically dry mono field; vocal distortion, not reverb, creates space.
+0452	Orgasm Addict – Buzzcocks	Hyper-present snare and scratchy telecasters; no verb, no sustain, all jab.
+0453	Holidays in the Sun – Sex Pistols	Same Wessex chain: tight buss compression, slammed guitars, barely a whiff of room on drums.
+0454	Peaches – The Stranglers	DI bass dominates, kick punches through; vocals sit dry and snarling above clipped hi-hats.
+0455	Black Betty – Ram Jam	Southern-rock riffing but mixed New-York dry—snare gated, cowbell snaps, guitars compressed not soaked.
+0460	I Feel Love – Donna Summer	Precision-clocked Moog bass, side-chained kick, and almost room-less vocal—Moroder’s future-disco poster-child for SSL-style clarity.  ￼
+0461	Peg – Steely Dan	Rick Marotta’s kit close-miked, toms gated, ultra-tight funk pocket; high-ratio compression glues without haze.  ￼ ￼
+0462	Marquee Moon – Television	Twin guitars shimmer without reverb; kick, snare, and Richard Hell’s bass locked dead-centre, bone-dry.
+0464	Passenger – Iggy Pop	Gritty yet tight: floor tom hits decay fast, acoustic guitars DI-like; ambience minimal, energy maximal.
+0465	Stayin’ Alive – Bee Gees	Slowed-tape drum loop, hat-tight gating, vocal compressed hard; everything pumps with disco punch, not wash.  ￼ ￼
+0467	Go Your Own Way – Fleetwood Mac	Mick Fleetwood’s snare gated, Lindsey’s acoustic bright-capo’d and bone-dry; bus comp gives that forward glide.
+0471	Whole Lotta Rosie – AC/DC	Vanda & Young capture: biting SG mids, kick/snare smack, room mics held in check—pure attack over ambience.
+0472	Blank Generation – Richard Hell & The Voidoids	Thin, ad-hoc NYC punk mix: close vocals, trebly guitars, near-zero room reflections.
+0474	Lust for Life – Iggy Pop	Tom-tom intro gated, drum buss at the edge; guitars bright but kept lean—streetwise clarity.
+0475	Non-Alignment Pact – Pere Ubu	Clipped snare/no-verb vocal, synth squawks entirely dry—post-punk embracing console punch.
+0477	Heart of Glass – Blondie	Chic-inspired drums and synth-bass sit in a clean, controlled stereo image; almost clinical disco sheen.  ￼
+0478	Ever Fallen in Love – Buzzcocks	Pete Shelley’s guitars razor-edged, kick and snare push without tail; mix slams, never swirls.
+0479	Le Freak – Chic	Bone-dry drums & hyper-tight bass from Bernard Edwards; virtually zero plate/room, pure punch.  ￼
+0480	Milk and Alcohol – Dr. Feelgood	Pub-rock staple: clipped snare transients, gating on toms, guitars bark in the 1–2 kHz zone.  ￼
+0482	Teenage Kicks – The Undertones	No-reverb punk kit, fast FET compression on vocals, guitars sit hard centre.  ￼
+0484	Human Fly – The Cramps	Mono-ish drum image, gated ambience, scathing 3 kHz guitar honk—pure mid-forward bite.
+0486	(I Don’t Want to Go To) Chelsea – Elvis Costello	Snare gate + VCA bus crunch; bass/drums sealed tight, vocals dry & forward.
+0488	Das Model – Kraftwerk	Synth lines bone-dry; kick/snare envelope-shaped, zero room tail—laboratory-clean.  ￼
+0489	Shot By Both Sides – Magazine	Drum gates clamp toms; biting guitar upper-mids; bus comp adds glue, no wash.
+0490	Public Image – PIL	Bass thrusts up-front, drums clipped fast; vox almost broadcast-dry.  ￼
+0491	Alternative Ulster – Stiff Little Fingers	Machine-gun snare, negligible room, guitars edgy not woolly; mix rides VCAs hard.
+0494	Hong Kong Garden – Siouxsie & The Banshees	Steve Lillywhite’s early gate-on-everything approach: punchy tom flams, airless space.  ￼
+0495	Being Boiled – The Human League	Drum machine hits totally dry; synth bass square-wave sits mid-front, zero smear.  ￼
+0497	Roxanne – The Police	Tight reggae rim-shots, minimal ambience; Sting’s vocal sits crisp at 2 kHz.  ￼
+0499	Germ Free Adolescents – X-Ray Spex	Barking sax & guitar, gated kit, top-end air damped—attitude wins over room.
+0502	Heaven – Talking Heads	Bare-bones drums, light VCA bus squeeze, guitars articulate mids without wash.
+0503	The Eton Rifles – The Jam	Snare gate snap, bass guitar picks through, vocals bone-dry—classic UK mod punch.
+0505	Beat The Clock – Sparks	Electro-disco kit muted reverb, staccato synth bass, mix rides VCAs for push.
+0507	Transmission – Joy Division	Hooky’s bass forward, Stephen Morris’s kit gated/tight; reverb only on vocal tail.
+0508	Oliver’s Army – Elvis Costello	Fast SSL bus compression; piano & drums upfront, minimal verb smear.
+0512	Are Friends Electric – Gary Numan/Tubeway Army	Drum box punches; synth pads filtered not smeared; ultra-dry vocal.
+0513	Boys Don’t Cry – The Cure	Post-punk kit recorded in dead room; guitars jangly but centre-weighted.
+0514	Good Times – Chic	Bernard Edwards bass + Tony Thompson snare locked; room almost inaudible, groove rules.  ￼
+0515	Don’t Stop ’Til You Get Enough – Michael Jackson	Bruce Swedien’s ultra-clean, high-headroom mix: snare gates, punchy horn stabs.  ￼
+0516	Lost in Music – Sister Sledge	Nile Rodgers dry-funk template: kick/snare gate, mid-forward rhythm guitar.
+0517	Brass In Pocket – Pretenders	Close-miked kit, transient-rich hi-hat, Chrissie’s vocal crisp centre-mono.
+0519	Rapper’s Delight – Sugarhill Gang	Lifted ‘Good Times’ rhythm; same dry bass-drum groove, VCA clamp on master.
+0520	California Über Alles – Dead Kennedys	Garage-punk kit, gate on tom floor, East Bay Ray guitar mid-snarl.
+0521	Typical Girls – The Slits	Reggae-tinged but bone-dry; drums side-stick pops, bass percussive, no verb.
+0524	Cars – Gary Numan	TR-77 ± live cymbals, zero room; synth bass stabs, icy dry vocal.  ￼
+0525	Babylon’s Burning – The Ruts	Kick/snare hammer with gate; guitars lean & mid-punchy, vox compressed tight.
+0526	Message in a Bottle – The Police	Stewart Copeland’s kit gated & panned; chorus guitars bright/dry, bass tight.
+0527	The Winner Takes It All – ABBA	Crystal-clear vocals, bright piano, ultra-tight kick/bass balance – no 0transformer haze.	￼
+0528	Rapture – Blondie	Dry, forward vocal, crisp Linn drums, synth bass snap – classic 4 kHz bite.	￼
+0529	While You See a Chance – Steve Winwood	Gated drums + sequenced synth ostinato; wide, polished top-end.
+0536	I’m Coming Out – Diana Ross	Chic-style funk guitars with razor-edged transients and taut low-end.
+0537	Back in Black – AC/DC	Dry, punchy kit and barking guitar mids; minimal saturation, maximum attack.
+0538	Let My Love Open the Door – Pete Townshend	Brilliant hi-mid sheen on keyboards and snare; fast bus glue keeps 0mix upfront.	￼
+0545	Once in a Lifetime – Talking Heads	Staccato bass drum, percussive loops and dry vocal all sit “on the glass”.
+0546	Vienna – Ultravox	Ice-cold synths and orchestral hits with super-bright top; gated tom fills.
+0550	Tom Sawyer – Rush	Snare + kick deliberately compressed “forward”; cymbals bright but contained.	￼
+0551	Girls on Film – Duran Duran	Glossy hi-hat sparkle, detached bass, and hard-panned synth stabs.	￼
+0553	Mickey – Toni Basil	Hand-claps + chant stack gated hard; hyper-present 3 kHz vocal edge.
+0554	Computer Love – Kraftwerk	Surgical low-cut, pristine pads, precise transient designer on drums.
+0556	In the Air Tonight – Phil Collins	Iconic SSL listen-mic gate/​compressor on the drum break; razor attack.	￼ ￼
+0557	Edge of Seventeen – Stevie Nicks	Chiming 16th-note guitar and driving kick sit tightly without warmth bloom.
+0559	Under Pressure – Queen & Bowie	Dry vocal doubles, snappy snare & bass lock; master bus compression obvious.
+0561	Genius of Love – Tom Tom Club	Tight sampled drums and bright clavinets; little low-mid ‘wool’.
+0563	Tainted Love – Soft Cell	Ultra-dry 808 + synth bass, hard-panned square-wave stabs, minimal warmth.	￼ ￼
+0566	Super Freak – Rick James	Punchy slap-bass > gated drums combo; sheen at 10 kHz deliberately boosted.
+0567	Don’t Stop Believin’ – Journey	Arena-rock kit mixed clean & loud; vocal sits forward with SSL-style glue.
+0574	Do You Really Want to Hurt Me – Culture Club	Sparse arrangement; bright rim-shot/​snare, forward vocal air.
+0575	Electric Avenue – Eddy Grant	Narrow-band synth bass + snare crack; bus comp gives “motor” feel.
+0576	Sweet Dreams (Are Made of This) – Eurythmics	Mono synth riffs, bone-dry 808, hyped 5 kHz edge – archetypal SSL polish.	￼ ￼
+0579	Save a Prayer – Duran Duran	Bright, shimmery pads and tom fills; low-mid scoop keeps mix lean.
+0581	Mad World – Tears for Fears	Tight Linn drums, vocal sits on top, minimal analogue haze.
+0587	Thriller – Michael Jackson	Tick-tock percussion, crisp rimshots, “glass” vocal presence; no Neve warmth.
+0588	Shock the Monkey – Peter Gabriel	Synclavier hits & stick clicks hyper-compressed; forward mids, gated verb.
+0592	Situation – Yazoo	808 snare+clap layered, sharp filter sweeps; stark synth-pop sheen.
+0597	Let’s Dance – David Bowie	Nile Rodgers guitar transients + low-cut kick; bus glue smacks.
+0599	Relax – Frankie Goes to Hollywood	Trevor Horn’s in-your-face Fairlight drums & SSL 4K mix buss saturation.
+0601	Everything Counts – Depeche Mode	Metallic mallet samples, 8-bit percussion; pushed hi-mid presence.
+0603	It’s Like That – Run-DMC	Bone-dry Oberheim DMX drums, hard-panned record scratches and almost zero room bloom—classic VCA clamp and mid-forward snap.  ￼ ￼
+0604	Rock of Ages – Def Leppard	Mutt Lange’s stacked vocals sit razor-flat; drums gate hard, guitars bright-not-thick—exact SSL-style buss glue.  ￼
+0605	Gimme All Your Lovin’ – ZZ Top	Eliminator’s sequenced kick/​snare and synth bass ride a tight, glassy top with 0no transformer haze.  ￼
+0606	Every Breath You Take – The Police	Clearmountain’s mix (AIR Montserrat 4K) is textbook: pin-point stereo, bright rim-shot, tight low-end.  ￼
+0607	99 Luftballons – Nena	OB-X/​PPG pads are hyped at 10 kHz, Linn drums snap; mix stays lean and forward.  ￼
+0609	Blue Monday – New Order	808 kick + crisp DMX snare, no warmth masking; sequencer transients punch through a bus-comp clamp.  ￼
+0611	Two Tribes – Frankie Goes To Hollywood	Trevor Horn’s Sarm-West 4K buss crush + gated toms make the track an SSL poster-child.  ￼
+0612	Runaway – Bon Jovi	Power-Station demo: Simmons drums and bright Prophet synths ride a very dry vocal—zero goo.  ￼ ￼
+0613	Born in the U.S.A. – Bruce Springsteen	Gated Oberheim DMX on the “cannon” snare, big but not thick—fast VCA release all over.  ￼ ￼
+0616	It’s My Life – Talk Talk	Metronomic Linn kick, sharp synth stabs, airy vocal; low-mid scooped like a 4K filter.  ￼
+0617	Smooth Operator – Sade	Silky but lean: rim-shot clicks sit right on the glass, bass tight—not woolly.  ￼
+0618	I Feel for You – Chaka Khan	Hyper-compressed Linn groove, bright harmonica, no transformer weight—pure mid ’80s SSL-style sheen.  ￼
+0620	You Spin Me Round – Dead or Alive	SAW’s PPG/​Linn assault mixed bone-dry; bus comp pumps the kick for Hi-NRG urgency.  ￼
+0621	The Boys of Summer – Don Henley	DMX drum loop and guitar chime pushed way forward, low-mid carved out—very 4K.
+0622	Rock You Like a Hurricane – Scorpions	Bright, gated toms and face-forward guitars; no transformer warmth, lots of VCA bite.  ￼
+0624	Tenderness – General Public	White-hot snare and horn stabs, keyed bus compression driving a dance-rock pocket.
+0625	Wood Beez – Scritti Politti	Trevor Horn gloss: Synclavier hits, ultra-dry Linn groove, scooped low-mid—pure SSL polish.  ￼
+0627	How Soon Is Now? – The Smiths	Despite tremolo guitar, the mix is lean: gated beats, airy top, transformer-free clarity.  ￼
+0628	Rattlesnakes – Lloyd Cole & The Commotions	Jangle guitars bright, vocal sits forward, kick/​bass tightly carved.  ￼
+0630	Purple Rain – Prince & The Revolution	Giant yet clean: Simmons toms pop, guitars cut at 4 kHz; Susan Rogers’ mix avoids Neve warmth.  ￼
+0632	Private Dancer – Tina Turner	Ultra-present vocal, gated ‘verb on snare, pulsing Oberheim bass—SSL-type sheen.
+0637	The Sun Always Shines on T.V. – A-ha	DX7 bells and Synclavier hits shine, Linn drums clamp—mid-’80s 4K sparkle.  ￼
+0638	Into the Groove – Madonna	Dry Linn kick, bright tambourine, forward vocal; low-mid entirely carved out.  ￼
+0639	Running Up That Hill – Kate Bush	Fairlight + Linn combo, tight gated toms, airy top, no transformer saturation.  ￼ ￼
+0640	West End Girls – Pet Shop Boys	808 kick and spoken vocal ride a narrow, clean stereo bed; Stephen Hague sheen.  ￼
+0641	She Sells Sanctuary – The Cult	Big ambience but lean: gated toms, bright 3 kHz guitars; SSL-like buss smack.  ￼
+0642	Close to Me – The Cure	Tight hand-claps and brass stabs pop out of a surgically carved mix—no Neve wool.  ￼
+0645	Life in a Northern Town – The Dream Academy	Fairlight choir, dry percussion, airy acoustic guitars—very glassy, VCA-controlled.  ￼
+0648	How Will I Know – Whitney Houston	Linn-driven pop with super-bright synths and a forward vocal—classic SSL gloss.  ￼
+0650	Sun City – Artists United Against Apartheid	Multiple voices yet razor-coherent; gated drums and mid-forward guitars punch through.  ￼
+0657	No Sleep ’Til Brooklyn – Beastie Boys	Rick Rubin’s dry, gated drums and Kerry King’s DI-style guitar have the hyped transients and tight low-end typical of an SSL rock mix.  ￼
+0658	Raining Blood – Slayer	Andy Wallace printed the kit and riff almost “in your face”; the super-clean cymbal brightness and brick-flat phase coherence scream SSL punch.  ￼
+0660	True Colors – Cyndi Lauper	Ultra-vivid vocal presence and taut Linn-drum ambience exemplify the console’s top-end sheen rather than Neve warmth.  ￼
+0661	Move Your Body – Marshall Jefferson	909 kick/bass sit “upright” with almost zero smear—classic SSL VCA snap adopted by Chicago house.  ￼
+0662	Rise – Public Image Ltd	Bill Laswell’s mix favours huge, gated toms and a forward vocal—SSL-style clarity over dubby Neve bloom.  ￼
+0663	Love Can’t Turn Around – Farley Jackmaster Funk	The tight, sample-based stab and punchy bass-drum lock mirror the SSL house blueprint.  ￼
+0666	Kiss – Prince	Completely stripped funk: bone-dry drum machine, spiky guitar and vocal peaking right at the front edge—pure SSL immediacy.  ￼
+0670	This Corrosion – Sisters of Mercy	Jim Steinman’s wall-of-sound still retains razor-sharp drum machine edges and a chemically bright top that an SSL makes easy.  ￼
+0673	Push It – Salt-N-Pepa	Sparse 808 groove and metallic synth hits pop out of a very fast VCA-type mix bus.  ￼
+0674	Bring the Noise – Public Enemy	Bomb Squad’s dense sample collage is glued by aggressive bus compression yet each transient remains surgical—text-book SSL feel.  ￼
+0676	It’s a Sin – Pet Shop Boys	Stephen Hague’s mix: bright Fairlight hits, thunderous gated reverb and glued stereo field—hard to do on a Neve without mud.  ￼
+0677	**Pump Up the Volume – M	A
+0680	Yé ké Yé ké – Mory Kanté	Afro-house hybrid mastered for European radio; the drum-machine’s front-loaded kick and shimmering vocal FX match SSL brightness.  ￼
+0682	The One I Love – R.E.M.	Mike Clink’s snare explodes then clamps instantly; guitars stay narrow and bright 0rather than Neve-wide and woolly.
+0685	Never Let Me Down Again – Depeche Mode	Flood used 24-track digital drums and SSL-style ducking to keep synth layers huge but clean.  ￼
+0688	With or Without You – U2	Edge’s dotted-delay guitar sits on a glass-clear pad; Bono’s vocal is hyper-focused0—traits of SSL’s precise automation and EQ.
+0690	Follow the Leader – Eric B. & Rakim	Power Play’s SSL gave the SP-12 drums their famously tight, forward punch without Neve-style saturation.  ￼
+0695	Buffalo Stance – Neneh Cherry	Bomb the Bass mix: dry break-beat, sampled brass and vocal all glued yet vivid0—classic SSL bus punch.  ￼
+0697	Straight Outta Compton – N.W.A.	Dr. Dre’s surgical 808/909 low-end and bright vocal EQ typify SSL clarity that cut through late-80s radio.
+0699	Everyday Is Like Sunday – Morrissey	Stephen Street’s mix leaves vast headroom yet snare and hi-hat stay razor-bright—SSL sheen over Smiths-era Neve warmth.
+0701	One – Metallica	The machine-gun kick-drum/guitar lock was achieved with VCA compression and surgical EQ—both SSL hallmarks.
+0705	Love Shack – The B-52’s	Don Was mixed at Dreamland on an SSL; the kick and tambourine snap out of the dense vocal layers.  ￼
+0706	A Little Respect – Erasure	Vince Clarke’s layered synths remain pin-sharp, never clouding Andy Bell’s vocal—typical SSL high-mid control.  ￼
+0708	Personal Jesus – Depeche Mode	Dry hand-clap, bar-chord guitar and thumping kick fit together through fast VCA compression—signature SSL smack.  ￼
+0710	I Am the Resurrection – The Stone Roses	John Leckie’s drum room is big yet every transient is clipped cleanly—exactly the “bus-glue” SSL gives.
+0712	Epic – Faith No More	Matt Wallace’s wide-panned guitars and slap-bass are bright, dry and occupy precise spectrums—a console with sharp EQ curves.  ￼
+0713	Like a Prayer – Madonna	Shep Pettibone’s mix: gospel choir, funk guitar and Linn kick stay discrete but fused0—an SSL mixer/comp chain was crucial.  ￼
+0714	W.F.L. – Happy Mondays	Hannett’s production glues live percussion to 808 hits, yielding the same forward-mid 0punch associated with SSL dance mixes.
+0715	Getting Away with It – Electronic	Stephen Hague again: New Order guitars plus synth-bass ride a bright, 0compressed drum loop—SSL sparkle over Manchester haze.
+0722	Back to Life – Soul II Soul	Jazzie B’s break-beat sounds huge yet controlled; vocal air sits above a tightly 0glued rhythm bed—text-book SSL radio polish.  ￼
+0723	Nothing Has Been Proved – Dusty Springfield	Pet Shop Boys’ Trevor Horn production: bone-dry Linn groove, 0scooped low-mid, glossy top identical to his Sarm-West 4K mixes.  ￼
+0726	Rhythm Nation – Janet Jackson	Jam/Lewis slammed the SP-1200 drums through an SSL compressor; the snare “machine-gun” density defines the single.  ￼
+0727	Painkiller – Judas Priest	Gated toms and razor-bright guitars—recorded/mixed on a 4000 G-plus at Miraval; the bus glue is unmistakable.  ￼ ￼
+0728	Loaded – Primal Scream	Andrew Weatherall remix: 808 kick punches, guitar samples sparkle; SSL-style mid-bite over indie low-end.  ￼
+0731	Energy Flash – Joey Beltram	Brutally dry TR-909 and low-cut Hoover stab—classic VCA clamp with almost no analogue haze.  ￼
+0735	Dub Be Good to Me – Beats International	Norman Cook keeps the Linn kick and vocal perfectly glued; mix is lean, snap-heavy, radio-ready.  ￼
+0737	Only Love Can Break Your Heart – Saint Etienne	Weatherall’s “two-halves” remix: up-front 909, airy top, transformer-free clarity.  ￼ ￼
+0745	Jesus Built My Hotrod – Ministry	Butch Vig’s mix clamps industrial loops; guitars and kicks hit like a 4K 0through-bus.  ￼
+0746	No More Tears – Ozzy Osbourne	Bob Ludwig’s SSL-mixed master: huge yet tight drums, bass locked, vocal hyper-present.  ￼
+0747	Smells Like Teen Spirit – Nirvana	Butch Vig at Smart Studios used SSL-style VCA comp and mid-scoop to make the snare explode without mud.  ￼
+0748	Summertime – DJ Jazzy Jeff & Fresh Prince	SP-1200 drums bright, vocal on top, zero transformer “wool”; textbook early-’90s SSL polish.
+0749	Give It Away – Red Hot Chili Peppers	Rick Rubin’s 4000 G at Red Zone: slap-bass and kick glued hard but stay lean.
+0750	One – U2	E-series at Hansa; Bono’s vocal and Edge’s guitar sit on the glass, bus comp breathing audibly.
+0751	Losing My Religion – R.E.M.	Scott Litt’s mandolin-heavy mix is startlingly forward, with tight low-mid cut and VCA smack.
+0752	Life Is a Highway – Tom Cochrane	Radio-rock sheen: gated snare, clipped vocal transients, gloss on 12-string—pure SSL radio glue.
+0755	Unfinished Sympathy – Massive Attack	Tight break-beat and string stack controlled by fast VCA compression—no Neve bloom.  ￼
+0756	Justified & Ancient – The KLF	House-tempo kick and sample layers pumped through 4 kHz bite, master-bus comp adds thrust.
+0757	Enter Sandman – Metallica	First song mixed on A&M’s SSL 4000; Bob Rock relied on the bus comp for the infamous kick/guitar lock.  ￼
+0758	Weather with You – Crowded House	Mitchell Froom carves low-mids, leaves cymbals and acoustic guitar shimmering—classic SSL EQ curve.
+0759	You Got the Love – The Source/Candi Staton	House track mixed for UK radio: 808 thump and vocal air fused by fast VCA gain-riding.
+0761	Move Any Mountain – The Shamen	909-driven rave cut: every stab transient identical, bus-comp glue gives relentless thrust.
+0762	How I Could Just Kill a Man – Cypress Hill	SP-1200 drums hit hard but stay clean; SSL-ish low-cut clears room for vocal growl.
+0767	Motorcycle Emptiness – Manic Street Preachers	Steve Brown’s mix keeps toms, jangly guitars and strings bright-yet-tight—4 kHz bite everywhere.
+0770	Connected – Stereo MCs	Hip-house hybrid: up-front kick, rhodes stab sparkle, mid-range glued like a console bus.
+0774	No Rain – Blind Melon	Ron St. Germain’s mix pares back low-mid, lets snare crack leap forward—SSL-type envelope.
+0775	Walk – Pantera	Terry Date slammed Vinny’s drums through an SSL bus comp; guitar palm-mutes punch, not smear.
+0776	Real Love – Mary J. Blige	Early Uptown sound: TR-808, chopped samples and airy vocal all fused, no transformer bulk.
+0778	Out of Space – The Prodigy	Break-beat, reggae vocal and hoover stab glued by fast bus comp—prototypical SSL rave crunch.
+0780	Animal Nitrate – Suede	Ed Buller’s production: snare splash and glam-guitar sit razor-sharp, mid-band forward.
+0783	“Loser” – Beck	Bone-dry vocal, forward 2 kHz presence, snappy loop drums and fast mix-bus glue typical of SSL VCA compression.  ￼
+0789	“Open Up” – Leftfield & Lydon	Hyped kick & snare transients, crisp hi-hats and techno bass locked together by tight bus compression.
+0792	“C.R.E.A.M.” – Wu-Tang Clan	Hard-edged mid-band, vocal-on-top balance and punchy 909-style kick; classic “radio punch”.  ￼
+0795	“It Ain’t Hard To Tell” – Nas	Clean, bright top end over deep but controlled low-end; drums and horn stabs hit with SSL-type VCA snap.
+0796	“Inner City Life” – Goldie	Rapid drum-and-bass transients, tight subs and wide pads glued by mix-bus compression.  ￼
+0799	“Confide in Me” – Kylie Minogue	Ultra-slick pop sheen, glassy vocal clarity and taut side-chain-controlled low-end.  ￼
+0802	“7 Seconds” – Youssou N’Dour & Neneh Cherry	Mid-forward vocal duet and very “finished” mix gloss; drums and synth hits stay glued.
+0807	“Black Hole Sun” – Soundgarden	Hard-edged guitars, tight drum ambience and upfront vocal—hallmarks of SSL’s fast automation & comp.  ￼
+0809	“Waterfalls” – TLC	Pop-R&B punch: bright vocal stack, crisp snare and deep yet contained bass.  ￼
+0810	“Cornflake Girl” – Tori Amos	Piano, vocal and rhythm locked in a forward, present mid-range with brisk transient handling.  ￼
+0813	“Sabotage” – Beastie Boys	Hyper-compressed drums, biting guitar mids and no low-mid mud—very SSL in attitude.  ￼
+0816	“Army of Me” – Björk	Industrial-tight kick, crunchy bass synth and clinical vocal clarity glued by fast VCA 0bus comp.  ￼
+0820	“1979” – Smashing Pumpkins	Polished top, controlled low end and “finished-mix” gloss from SSL-based Flood/Vig workflow.  ￼
+0821	“Common People” – Pulp	Chris Thomas’s trademark SSL glue: driving drums, bright guitars and vocal front-and-centre.  ￼
+0823	“Insomnia” – Faithless	Club-ready low end, sparkling hats and pumping side-chain bus comp give pure SSL punch.
+0826	“Born Slippy .Nuxx” – Underworld	Relentless kick/snare slam and crisp synth layers welded by bus compression “glue”.
+0827	“You Oughta Know” – Alanis Morissette	V-drums pop, gritty guitars yet clear vocal—classic ’90s SSL loud-but-clean mix.
+0829	“Stupid Girl” – Garbage	Butch Vig’s SSL-centric mix: biting guitars, slick vocal and tight bottom.
+0833	“The Bomb!” – The Bucketheads	House kick punch, clipped hats and sample stabs sit in a glued, radio-ready stereo field.
+0836	“Brooklyn’s Finest” – Jay-Z feat. B.I.G.	Dry vocal, snappy drums, tight bass loop—SSL’s up-front clarity fits 1990s boom-bap.
+0841	“Nancy Boy” – Placebo	Brit-rock sheen, compressed drum ambience and edgy vocal presence.
+0842	“Devil’s Haircut” – Beck	Dust Brothers’ tight drum loops and bright acoustic snippets glued into a loud, clean picture.
+0844	“The Beautiful People” – Marilyn Manson	Slammed mix bus, snare thwack and vocal razor-edge—classic SSL aggressiveness.
+0848	“Woo-Hah!! (Got You All in Check)” – Busta Rhymes	Fast VCA clamp on drums, bright horns and forward vocal 0energy.
+0849	“No Diggity” – Blackstreet ft Dr Dre	Sub-tight R&B kick, crisp rim-shots and silky vocal stack all glued together.
+0851	“Block Rockin’ Beats” – Chemical Brothers	Big-beat kick/body hits drive hard against bus-comp glue; mid-range bite stays clean.  ￼
+0858	“Spice Up Your Life” – Spice Girls	Pop maximalism: bright vocal stack, hyped percussion and controlled bass—very ‘90s SSL chart sound.
+0860	“Paranoid Android” – Radiohead	Nigel Godrich’s SSL mixes: dense layers yet surgical clarity, with punchy toms and glued dynamics.
+0861	Come to Daddy (Pappy Mix) – Aphex Twin	Hyper-compressed drums and razor mid-range scream mirror the G-comp “crush & release” aesthetic.  ￼
+0862	Never Ever – All Saints	Vocal stack is dry, bright and “glued” to the kick-snare loop—classic late-90s SSL pop sheen.
+0863	Song 2 – Blur	The snare hits clamp hard then vanish; guitars sit inside the mix – trademark SSL bus grab.  ￼ ￼
+0867	Doo Wop (That Thing) – Lauryn Hill	Tight side-chain ducking on the drum loop and very forward lead make it feel straight off a 4k G+.
+0869	You Get What You Give – New Radicals	Crisp hi-hat, pop-rock snare crack and minimal reverb = mainstream SSL radio tone.
+0870	Music Sounds Better with You – Stardust	French-house kick “thump” and side-chained filter sweeps rely on fast VCA response.
+0872	Teardrop – Massive Attack	The rim-shot sits above the pad bed with no bloom—precisely the SSL upper-mid focus.
+0873	Iris – Goo Goo Dolls	Bus-compressed acoustic intro jumps forward; 4 kHz presence on vocal unmistakably SSL.
+0878	Scar Tissue – Red Hot Chili Peppers	Rick Rubin’s trademark SSL bus glue (2:1, 4 dB) keeps the laid-back groove tight.
+0879	Ms. Fat Booty – Mos Def	Kick-sub trimmed, vocal front-centred; loop feels “pasted” by VCA compression.
+0880	Caught Out There – Kelis	Neptunes’ brittle percussion + ducked synth stabs scream SSL 9kJ punch.
+0881	Why Does My Heart Feel So Bad? – Moby	Pads are wide but mono kick is stapled to centre—classic SSL summing feel.
+0882	I Try – Macy Gray	Airy top, narrow low-mid; stereo bus clamps on chorus—very 4000G.
+0883	U Don’t Know Me – Armand Van Helden	House four-on-the-floor pushed against the limiter; SSL-style ‘slam then release’.
+0886	Hate to Say I Told You So – The Hives	Punk guitars gain-staged hot into VCA bus; no Neve warmth, all bite.
+0888	One More Time – Daft Punk	Side-chain pumping, bright master and clipped transients—straight out of an SSL 4k emulation.  ￼
+0889	Stan – Eminem	Dr Dre’s tight vocal duck, dry ambience and mid-range cut: textbook SSL rap mix.
+0893	Ms. Jackson – Outkast	Forward snare/kick and “hard ceiling” dynamics—the Hit Factory’s SSL 9000J fingerprint.
+0894	Romeo – Basement Jaxx	House drums glued, vocal bright in front; feels mixed through G-comp at –2 dB GR.
+0895	Can’t Get You Out of My Head – Kylie Minogue	Brothers-In-Rhythm tracked at Sarm West on an SSL 4k—tight, glossy and uncluttered.  ￼
+0900	You and Whose Army? – Radiohead	Mid-side ambience collapses to mono on choruses—a trick easier with SSL centre-punch.
+0904	Get Ur Freak On – Missy Elliott	Jimmy Douglass mixed on Hit Factory’s SSL 9k; the snare “pops” then vanishes—pure VCA.  ￼
+0905	21 Seconds – So Solid Crew	UK-garage shuffle held tight by fast-release bus comp; vocal bright yet controlled.
+0906	Stay Together for the Kids – Blink-182	Jerry Finn’s SSL workflow: big guitars but vocal still on top, kick 0centred.
+0907	Schism – Tool	Distant room mics gated hard; bass clean not fuzzy—more SSL than Neve heft.
+0908	Rock Star – NER*D	Neptunes’ trademark thin-but-loud mix relies on SSL subgroup clipping.
+0909	Fallin’ – Alicia Keys	Dry piano and vocal up-front, step-back reverb—SSL hallmarks.
+0910	More Than a Woman – Aaliyah	Timbaland’s punchy low-mid carve and side-chained synth pads = SSL vibe.
+0913	Freak Like Me – Sugababes	Richard X sample mash sits hot against limiter; no Neve bloom, all edge.
+0914	Mundian To Bach Ke – Panjabi MC	Bhangra tumbi pierces at 3 kHz but kick is tight-damped—an SSL mid-focus mix.
+0915	A Little Less Conversation – Elvis vs. JXL	Big, modern kick, sharp vocal, heavy bus comp “pumping”—SSL radio 0sound.
+0916	Gimme the Light – Sean Paul	Dancehall groove with dry, punchy kick and compressed, bright vocal.
+0917	I Believe in a Thing Called Love – Darkness	Guitars cut hard at 3kHz, drums dry and upfront, modern “mix-glue”.
+0919	Like I Love You – Justin Timberlake	Neptunes’ minimal, dry drums; vocal tight and “in the pocket”.
+0920	You Know You’re Right – Nirvana	Posthumous SSL-ish “radio polish”; guitars bright, kick/snare clamp.
+0922	Untitled – Interpol	Drum/bass/guitar glued and mid-forward, no vintage “bloom”.
+0926	Heartbeats – The Knife	Super-clean low-end, glassy vocals, and side-chain bus comp throughout.
+0927	Fuck Me Pumps – Amy Winehouse	Snare snaps, vocals dry and in-your-face; punchy motown-meets-SSL feel.
+0928	Strict Machine – Goldfrapp	Synths snap and glide, very tight “four on the floor”; modern SSL glue.
+0929	Step into My Office, Baby – Belle & Sebastian	Cleanest drums of their discog; no tape haze, all present and bright.
+0930	Run – Snow Patrol	Huge yet tight, compressed bus sound; vocal always sits on top.
+0931	Maps – Yeah Yeah Yeahs	Snare “gates” hard, guitar dry and focused; ultra-modern stereo.
+0932	Toxic – Britney Spears	Snare/hi-hat and vocal compressed “up”; no 90s warmth, pure radio gloss.
+0934	Mr. Brightside – The Killers	Snare crack, guitar attack and high-passed bass all scream SSL energy.
+0938	Fix Up, Look Sharp – Dizzee Rascal	“Breakbeat” kick/snr clamp and dry vocal; all edge, no warmth.
+0939	Crazy in Love – Beyonce	Crisp horn stabs, slamming kick; bus comp makes vocal ride the groove.
+0941	Take Me Out – Franz Ferdinand	Taut snare/guitar, all punch, almost no room tone; ultra-modern UK indie sound.
+0943	I Predict a Riot – Kaiser Chiefs	Compressed kit, hyped upper-mids and sharp vocal focus—pop-punk on SSL.
+0945	Float On – Modest Mouse	Kick, snare and vocal glued and mid-forward, with little ambience.
+0946	Jesus of Suburbia – Green Day	Punk rock mixed with tight bus comp; snare/guitar “pop”.
+0947	Mein Teil – Rammstein	Industrial “kick/gtr lock”; very hard, little warmth or room, pure SSL power.
+0951	Dry Your Eyes – The Streets	Mike Skinner’s vocals dry, beats punchy; radio glue all over.
+0954	I Bet You Look Good on the Dancefloor – Arctic Monkeys	Every transient forward, mix bright and glued, signature “now” indie.
+0955	Hard to Beat – Hard-Fi	Compressed handclaps, punchy bass, dry vocal; all SSL-style VCA.
+0956	Fix You – Coldplay	Bus comp holds the band together; vocal never drowns, reverb is tight.
+0957	Let’s Make Love and Listen to Death from Above – CSS	Drums up, vocals up, guitars snap, everything feels “limited”.
+0958	Best of You – Foo Fighters	Punchy, clipped snare, mid-forward guitar, vocal “on the glass”.
+0961	Welcome to Jamrock – Damian Marley	Tight reggae rhythm, compressed snare, vocal sits up front.
+0965	Crazy – Gnarls Barkley	That drum loop and bassline are dry, glued, and hard; soul vocal forward.
+0967	Ain’t No Other Man – Christina Aguilera	Brass snaps, kick/hat clamp, vocal rides the mix—modern SSL club-soul.
+0968	Supermassive Black Hole – Muse	Drums & fuzz-bass clamp against the G-comp; vocal rides “on the glass”, top end bright not harsh.
+0969	We Are Your Friends – Justice vs Simian	Side-chained 4-on-the-floor pump, razor hats, sub kept tight— textbook French-house SSL sound.
+0970	Pop the Glock – Uffie	Bone-dry 808, sibilant vocal, mix slammed 2-4 dB into a fast VCA bus.
+0973	Crank That (Soulja Boy) – Soulja Boy	Minimal 808 groove, transient whip on snare/clap, vocal sits forward, zero analogue warmth.
+0974	My People – The Presets	Electro kick thumps, synth stabs crisp, heavy bus compression “breathes” each bar.
+0975	Flux – Bloc Party	Pumping side-chain on synths, compressed cymbal wash and bright vocal—modern SSL indie-dance.
+0977	D.A.N.C.E. – Justice	Disco hats & choir samples glued; 3 kHz bite and VCA pump drive the groove.
+0979	With Every Heartbeat – Robyn/Kleerup	Sparse electro mix: mono kick & bright claps up front, airy vocal locked in place.
+0980	Someone Great – LCD Soundsystem	Dry 808+analog-synth blend, James Murphy’s vocal “on top”, bus comp glues crescendo.
+0981	Paper Planes – M.I.A.	Break-beat and gun-cock FX hit sharply; mix is bright, dry and tightly levelled.
+0984	Divine – Sébastien Tellier	French-touch side-chain pump, glossy top, bass kept mono-tight by hard VCA clamp.
+0986	Time to Pretend – MGMT	Synth bass and snare transients leap forward; mix bus breathes, no vintage thickness.
+0987	Sweet Disposition – The Temper Trap	Kick/snare snap under a wide verb yet stay centre-tight—modern SSL rock aesthetic.
+0988	L.E.S. Artistes – Santogold	Dry rim-shots, vocal presence, carved low-mid; feels straight off an E-series.
+0989	Sex on Fire – Kings of Leon	Bright cymbals, dense guitars but mid-forward vocal remains clear—bus glue, not tape bloom.
+0991	Viva la Vida – Coldplay	Tight marching drums, strings bright not silky, overall “finished” radio gloss from VCA bus.
+0992	Dog Days Are Over – Florence +TM	Hand-claps & tribal drums pump audibly; Florence’s vocal sits crisply above dense layers.
+0993	The Fear – Lily Allen	Pop-electro groove, bright hi-hats, vocal sibilance controlled yet forward—classic SSL pop mix.
+0996	Empire State of Mind – Jay-Z/Alicia Keys	Dry boom-bap kick, piano sparkle, vocals locked centre with fast bus compression.
+0999	Go Do – Jónsi	Massive percussion clusters stay coherent due to tight VCA clamp; vocal air bright, not warm.
+1001	Stylo – Gorillaz	Electro-bass pulse, snare crack and Damon’s vocal glued in a bright, lean stereo field.
