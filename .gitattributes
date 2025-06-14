@@ -1,3 +1,0 @@
-*.rs    diff=rust
-SP404zen.webm filter=lfs diff=lfs merge=lfs -text
-data/SP404zen.webm filter=lfs diff=lfs merge=lfs -text
